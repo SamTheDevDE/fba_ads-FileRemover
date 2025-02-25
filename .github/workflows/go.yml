@@ -30,7 +30,7 @@ jobs:
         powershell Compress-Archive -Path fba_ads-FileRemover.exe -DestinationPath fba_ads-FileRemover.zip
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: fba_ads-FileRemover
         path: fba_ads-FileRemover.zip
