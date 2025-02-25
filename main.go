@@ -46,7 +46,7 @@ func main() {
 
 	if *dirPath == "" {
 		fmt.Println("Error: Please provide a directory path using --dir flag")
-		fmt.Println("Usage: FAFRemover --dir=C:")
+		fmt.Println("Usage: .\\fba_ads-FileRemover --dir=C:")
 		os.Exit(1)
 	}
 

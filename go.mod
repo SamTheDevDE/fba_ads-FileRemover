@@ -1,4 +1,4 @@
-module FAFRemover
+module fba_ads-FileRemover
 
 go 1.22.2
 
